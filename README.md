@@ -29,7 +29,18 @@ HN8145X6 是 XG-PON 万兆光猫，4GE + 1POTS + 1USB，Wi-Fi 6。这个包解�
 
 `HN8145X6_E8C_jffs2.zip` 是改回电信界面要用的地区包，1.49 MB。
 
-原始的整机分区备份和超管 cfg **没有上传**：里面带着上一台设备的 `hw_boardinfo`、`hw_ctree.xml`、SSID 和 WiFi 密码，属于别人的设备信息。需要就自己做一份备份。
+原始的整机分区备份和超管 cfg **没有上传**：里面带着上一台设备的 `hw_boardinfo`、`hw_ctree.xml`、SSID 和无线密码，属于别人的设备信息。需要就自己做一份备份。
+
+## 相关仓库
+
+同品牌其它机型，命令体系相近，排障时可以互相参照；每个仓库开头都对应一篇文章：
+
+- [华为 F30 工具包](https://github.com/dellzou/Huawei_F30_Flashing_Software_and_Tutorial)：华为 F30，改 SN、改 MAC、取超密
+- [华为 HN8145XR 工具包](https://github.com/dellzou/Huawei_HN8145XR_Flashing_Software_and_Tutorial)：华为 HN8145XR，主猫改公版、从猫组网
+- [华为 K662D 工具包](https://github.com/dellzou/Huawei_K662D_Flashing_Software_and_Tutorial)：华为 K662D，从猫改光猫模式
+- [华为 V173-50 工具包](https://github.com/dellzou/Huawei_V173-50_Flashing_Software_and_Tutorial)：华为 V173-50，R24 装备包与 OBSCTool 日志
+- [华为 V173 工具包](https://github.com/dellzou/Huawei_V173_Flashing_Software_and_Tutorial)：华为 V173 主猫，补全 Shell、改公版、改 boardinfo
+- [华为 V175 工具包](https://github.com/dellzou/Huawei_V175_Flashing_Software_and_Tutorial)：华为 V175，R23 固件包开 Telnet
 
 ## 注意
 
